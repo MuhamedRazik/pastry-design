@@ -12,9 +12,12 @@
 .left-section {
     display: flex;
     flex-direction: column;
+    color: white;
     background-color: blue;
     height: 100vh;
     width:28% ;
+    text-align: center;
+    padding-top: 50px;
 }
 .right-section {
     display: flex;
@@ -26,6 +29,8 @@
      display: flex;
      justify-content: center;
      margin-top: 40px;
+     color: white;
+     font-size: 1.5rem;
      
 }
 ul li {
