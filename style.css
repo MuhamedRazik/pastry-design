@@ -46,41 +46,39 @@ ul li {
     width: 100%;
 }
 h2,h3 {
-   font-size: 2.5rem; 
+   font-size: 2.4rem; 
    color: rgb(0, 112, 209);
    font-weight: 400;
    margin-bottom: 30px;
 }
 h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 p {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 300;
     line-height: 1.5;
     word-spacing: 2px;
     text-align: justify;
 }
 .main-content {
-    padding: 60px 50px;
+    padding: 65px 50px;
 }
 
 .welcome,.about,.gallery-one {
-    margin-bottom: 140px;
+    margin-bottom: 65px;
 }
 .about {
-    display: flex;
+    display: grid;
+    grid-template-columns: 24% 76%;
+    column-gap: 20px;
 }
-.about-image {
-    width: 26%;
+.about p {
+    width: 98%;
 }
-.about-content {
-    width: 74%;
+.about img {
+    width: 100%;
 }
-.about button {
-
-}
-
 
 .gallery-one-image {
     width: 100%;
