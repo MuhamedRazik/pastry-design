@@ -65,6 +65,10 @@ p {
 .main-content {
     padding: 140px 100px;
 }
+
+.welcome,.about,.gallery-one {
+    margin-bottom: 140px;
+}
 .gallery-one-image {
     width: 100%;
     display: grid;
