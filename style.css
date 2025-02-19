@@ -47,3 +47,12 @@ ul li {
 .main-image img{
     width: 100%;
 }
+h2,h3 {
+   font-size: 2rem; 
+   color: rgb(0, 112, 209);
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+h3 {
+    font-size: 1.7rem;
+}
