@@ -69,6 +69,12 @@ p {
 .welcome,.about,.gallery-one {
     margin-bottom: 140px;
 }
+.about {
+    display: flex;
+}
+
+
+
 .gallery-one-image {
     width: 100%;
     display: grid;
